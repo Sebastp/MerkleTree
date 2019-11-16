@@ -1,8 +1,15 @@
 import createMerkleTree from "./MerkleTree";
-import _ from "lodash"; // 或 const _ = require("lodash");
 
-const words = ["a", "b", "c"];
-_.forEach(words, word => {
-  console.log("word:" + word);
-});
-const MerkleTree = createMerkleTree();
+const MerkleTree = createMerkleTree([
+  "str1",
+  "str2",
+  "str1",
+  "str2",
+  "str1",
+  "str2",
+  "str1",
+  "str2"
+]);
+// MerkleTree.root();
+MerkleTree.height();
+MerkleTree.level(1);

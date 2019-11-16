@@ -1,2 +1,0 @@
-# MerkleTree
-Created with CodeSandbox

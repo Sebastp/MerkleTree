@@ -2,12 +2,10 @@
 
 ![Merkle tree ](https://i.imgur.com/jKFiQ0W.png)
 
-### In the illustration, let’s imagine I know the whole Merkle tree. Someone gives me L2 data block but I don’t
-trust him. How can I check if L2 data is valid?
+### In the illustration, let’s imagine I know the whole Merkle tree. Someone gives me L2 data block but I don’t trust him. How can I check if L2 data is valid?
 ```Compile whole tree again with your new L2 and see if Top Hash Matches your Top Hash```
 
-### I know only the L3 block and the Merkle root. What minimum information do I need to check that the L3
-block and the Merkle root belong to the same Merkle tree?
+### I know only the L3 block and the Merkle root. What minimum information do I need to check that the L3 block and the Merkle root belong to the same Merkle tree?
 ```You need the rest of blocks (L1, L2, L4)```
 
 ### What are some Merkle tree use cases?

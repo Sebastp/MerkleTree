@@ -10,6 +10,6 @@ const MerkleTree = createMerkleTree([
   "str1",
   "str2"
 ]);
-// MerkleTree.root();
+MerkleTree.root();
 MerkleTree.height();
 MerkleTree.level(1);

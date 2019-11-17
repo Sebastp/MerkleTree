@@ -36,7 +36,10 @@ const createMerkleTree = arrayOfStrs => {
   const firstLevel = newLevel(arrayOfStrs, true);
   const allLevelsArr = createLevels(firstLevel, [firstLevel]);
   const root = () => {
-    console.log("roott");
+    //get first elem from last layer array
+    let topHash = allLevelsArr[allLevelsArr.length - 1][0];
+    console.log(topHash);
+    return topHash;
   };
   const height = () => {
     const levelsCount = allLevelsArr.length;
